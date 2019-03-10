@@ -1,0 +1,12 @@
+name: mostWanted
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - numpy
+    - matplotlib
+    - pandas
+    - pip:
+        - tensorflow
+        - pypiwin32
+        - opencv-python
